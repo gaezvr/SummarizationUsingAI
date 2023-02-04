@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Un summarizer de texto online es una herramienta que usa AI y complejos algorithms para condensar el texto, IN ENGLISH." />
+        <meta name="author" content="gaezvr" />
+        <title>Text Summarizer</title>
+        <link rel="shortcut icon" href="favicon.png">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+<script src="oculto/api.js"></script>
+      
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+     
+        <link href="css/styles.css" rel="stylesheet" />
+	    <script src="jsscripts.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top"><b>Inicio</b></a></li>
+                <li class="sidebar-nav-item"><a href="#about">Informate</a></li>
+                <li class="sidebar-nav-item"><a href="#Servicios">Servicios</a></li>
+                <li class="sidebar-nav-item"><a href="#Share">Compartir la web</a></li>
+                <li class="sidebar-nav-item"><a href="#Resumen">Summarize</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contacto</a></li>
+                
+            </ul>
+        </nav>
+        <!-- Header //Ver-->
+        <header class="masthead d-flex align-items-center">
+           
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Text Summarization</h1>
+                <h2 class="mb-5"><em class="white">Una <b class="black1"> IA </b> que Hará los Resumenes por <b class="black1">TI</b> in English</em></h3>
+                <a class="btn btn-primary btn-xl" href="#Resumen">Start</a>
+            </div>
+            <div class="block">
+                <img src="favicon.png" alt="Photo should be here" style="width:36px;height:36px;">
+               </div>
+        </header>
+  
+        <!-- About Victor-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h3>¡Esta página web está en su versión beta!</h2>
+                        <p class="lead mb-5">
+                            Este es un pequeño experimento que quería probar a hacer, yo soy un estudiante universitario de Informática y Desarrollo de Videojuegos, si te interesa contactarme para algún proyecto, tienes alguna pregunta o sugerencias sobre qué mejorar, no dudes en contactarme, estaré encantado de ayudar, aqui tienes mi correo:
+                            <a href="#">ivitlogg@gmail.com</a>
+                            . <b>¡Además, abajo del todo tienes mi paypal, si me quieres ayudar con mis gastos y te gusta la página!</b>
+                        </p>
+                        <a class="btn btn-dark btn-xl" href="#footer">Otras Formas de Contactarme</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="Servicios">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Servicios</h3>
+                    <h2 class="mb-5">¿Qué Ofrecemos?</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-clock"></i></span>
+                        <h4><strong>Rapidez</strong></h4>
+                        <p class="text-faded mb-0">¿No tienes tiempo? !Entonces éste es tu mejor amigo! Sin duda, pero sé responsable y no abuses de esta tecnología.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-arrow-down-circle"></i></span>
+                        <h4><strong>Lenguaje</strong></h4>
+                        <p class="text-faded mb-0"><b>¡Cuidado! Resumenes De Artículos En Inglés Solamente.</b> El texto debe ser superior a 11 frases, por lo menos.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mouse"></i></span>
+                        <h4><strong>Flexibilidad</strong></h4>
+                        <p class="text-faded mb-0">
+                            ¡Disponible y compatible con cualquier tipo de dispositivo, ya sea móvil o ordenador, disfruta!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Poner lo de comparte el link con tus amigos y danos una reseña -->
+        <section class="callout" id="Share">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5">
+                    ¡Comparte el
+                    <em>link</em>
+                    con tus amigos o danos una reseña!
+                </h2>
+                <a href="https://twitter.com/share?url=https://proyectov.w3spaces.com/&text=Mira esta pagina para hacer resumenes mediante inteligencias artificiales en menos de un minuto!" class="share-btn twitter">Twitter</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://proyectov.w3spaces.com/#page-top" class="share-btn facebook">Facebook</a>
+                <a href="https://reddit.com/submit?url=https://proyectov.w3spaces.com/&title=Mira esta pagina que moderna!" class="share-btn reddit">Reddit</a>
+                <a href="mailto:?subject=Mira esta página para hacer resumenes hechale un vistazo!&body=https://proyectov.w3spaces.com/" class="share-btn email">Email</a>
+                <a href="whatsapp://send?text=https://proyectov.w3spaces.com/ Mira esta pagina web para hacer resumenes con una IA!"       data-action="share/whatsapp/share" class="share-btn wsp">  WhatsApp Mobile </a>   
+            </div>
+        </section>
+        <!-- Hacer resumen 
+        3. Vincularla al menu de arriba a la derecha-->
+       
+        <!-- Hacer resumen 2-->
+        <section id="Resumen" class="content-section bg-primary text-white text-center">
+
+        <textarea class="text" id="text" cols="100" placeholder="Remember, in english! As longer the text, more time ill take to summarize. Type Here:" ></textarea>
+        <br>
+        <br>
+		<button class="btn btn-dark btn-xl submit" id="submit">Resumir Ahora</button>
+        <br>
+		<br>
+		<textarea readonly cols="100" class="output" id="output" placeholder="Output o resultado: (Tarda un rato en cargar el resumen)"></textarea>
+
+<script >
+  
+  const text = document.getElementById('text');
+  const submit = document.getElementById('submit');
+  const output = document.getElementById('output');
+  const placeholder = document.getElementById("output");
+  let dots = "";
+
+  function reset() {
+      output.innerHTML = "";
+      placeholder.setAttribute("placeholder", "Resumiendo...");
+      dots = "";
+  }
+
+  function animatePlaceholder() {
+      dots = (dots === "...") ? "" : dots + ".";
+      placeholder.setAttribute("placeholder", "Resumiendo" + dots);
+  }
+
+  submit.addEventListener('click', function() {
+      reset();
+      setInterval(animatePlaceholder, 300);
+      let animateInterval = setInterval(animatePlaceholder, 300);
+
+      let fullText = text.value;
+      let sentences = fullText.split(/[.!?]+/);
+      let numSentences = sentences.length;
+      let subTexts = [];
+
+      if (numSentences > 90) {
+          let subText = "";
+          for (let i = 0; i < numSentences; i++) {
+              subText += sentences[i] + (sentences[i].endsWith(".") ? "" : ".");
+              if ((i + 1) % 90 === 0 || i === numSentences - 1) {
+                  subTexts.push(subText);
+                  subText = "";
+              }
+          }
+      } else {
+          subTexts.push(fullText);
+      }
+
+      let promises = [];
+      for (let subText of subTexts) {
+          if (subText.split(/[.!?]+/).length > 11) {
+              promises.push(
+                  fetch('https://gpt-summarization.p.rapidapi.com/summarize', {
+                      method: 'POST',
+                      headers: {
+                          'content-type': 'application/json',
+                          'X-RapidAPI-Key': apiKey,
+                          'X-RapidAPI-Host': 'gpt-summarization.p.rapidapi.com'
+                      },
+                      body: JSON.stringify({
+                          text: subText,
+                          num_sentences: 10
+                      })
+                  })
+                      .then(response => response.json())
+                      .then(response => {
+                          return response.summary;
+                      })
+                      .catch(err => console.error(err))
+              );
+          }
+      }
+
+      Promise.all(promises)
+          .then(summaries => {
+              let finalSummary = "";
+              for (let summary of summaries) {
+                  finalSummary += summary;
+              }
+              output.innerHTML = finalSummary;
+          })
+                    .catch(err => console.error(err));
+        
+                clearInterval(animateInterval);
+            });
+        </script>
+    
+        </section>
+        <!-- Map-->
+        <div class="map" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11905.354833677726!2d-0.8339969!3d41.7563546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d6671888907d30!2sUniversidad%20San%20Jorge!5e0!3m2!1ses!2ses!4v1675200750374!5m2!1ses!2ses"></iframe>
+            <br />
+            <small><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11905.354833677726!2d-0.8339969!3d41.7563546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d6671888907d30!2sUniversidad%20San%20Jorge!5e0!3m2!1ses!2ses!4v1675200750374!5m2!1ses!2ses"></a></small>
+        </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5" id="footer">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/gaezvrFN"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/gaezvr"><i class="icon-social-github"></i></a>
+                    </li>
+		<li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://www.paypal.com/donate/?hosted_button_id=P4U8HG8B8GWUE"><i class="icon-paypal"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; 2023 gaezvr</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+    </body>
+</html>
+
