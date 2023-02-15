@@ -74,4 +74,4 @@ function fadeIn(el, display) {
     })();
 };
 
-
+const apiKey = 'THE_API_KEY';
